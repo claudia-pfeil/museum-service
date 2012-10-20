@@ -246,3 +246,24 @@ de:
       long: ! '%A, %d. %B %Y, %H:%M Uhr'
       short: ! '%d. %B, %H:%M Uhr'
     pm: nachmittags
+  activerecord:
+    attributes:
+      user:
+        email: 
+        password: 
+        remember_me: 
+        password_confirmation: 
+    errors:
+      models:
+        user:
+          attributes:
+            unconfirmed_email:
+              not_found: 
+  user:
+    email: 
+    password: 
+    remember_me: 
+    password_confirmation: 
+    signed_up_but_unconfirmed: 
+    invalid: 
+  user_subject: 
