@@ -1,4 +1,18 @@
 de:
+  activerecord:
+    attributes:
+      user:
+        email: E-mail
+        password: Passwort
+        password_confirmation: Passwort-Bestätigung
+        remember_me: Login merken
+        unconfirmed_email: 
+    errors:
+      models:
+        user:
+          attributes:
+            unconfirmed_email:
+              not_found: 
   date:
     abbr_day_names:
     - So
@@ -246,24 +260,15 @@ de:
       long: ! '%A, %d. %B %Y, %H:%M Uhr'
       short: ! '%d. %B, %H:%M Uhr'
     pm: nachmittags
-  activerecord:
-    attributes:
-      user:
-        email: 
-        password: 
-        remember_me: 
-        password_confirmation: 
-    errors:
-      models:
-        user:
-          attributes:
-            unconfirmed_email:
-              not_found: 
   user:
-    email: 
-    password: 
-    remember_me: 
-    password_confirmation: 
-    signed_up_but_unconfirmed: 
+    email: E-mail
     invalid: 
+    password: 
+    password_confirmation: 
+    remember_me: Login merken
+    send_instructions: 
+    signed_in: 
+    signed_out: 
+    signed_up_but_unconfirmed: 
+    unauthenticated: 
   user_subject: 

@@ -43,3 +43,11 @@ gem 'devise', '~> 2.1.2'
 group :test, :development do
   gem 'rspec-rails', '~> 2.0'
 end
+
+group :test do
+  gem 'simplecov',          require: false
+  gem 'factory_girl_rails', '~> 1.6.0'
+  gem 'faker'
+  gem 'capybara',           '~> 1.1.2'
+  gem 'shoulda-matchers',   '~> 1.0.0'
+end
