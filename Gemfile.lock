@@ -75,6 +75,7 @@ GEM
     json (1.7.5)
     libwebsocket (0.1.5)
       addressable
+    locale_setter (0.1.1)
     localeapp (0.6.3)
       gli
       i18n
@@ -176,6 +177,7 @@ DEPENDENCIES
   factory_girl_rails (~> 1.6.0)
   faker
   jquery-rails
+  locale_setter
   localeapp
   pg
   rails (= 3.2.8)

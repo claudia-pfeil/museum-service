@@ -21,6 +21,7 @@ group :assets do
 end
 
 gem 'localeapp'
+gem 'locale_setter'
 gem 'jquery-rails'
 
 gem 'devise', '~> 2.1.2'
