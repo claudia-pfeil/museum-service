@@ -1,0 +1,2 @@
+class Museum < Resource
+end

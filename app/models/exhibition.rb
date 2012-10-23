@@ -1,0 +1,2 @@
+class Exhibition < Resource
+end
