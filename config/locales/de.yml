@@ -272,3 +272,12 @@ de:
     signed_up_but_unconfirmed: 
     unauthenticated: 
   user_subject: 
+  flash:
+    actions:
+      create:
+        notice: 
+      destroy:
+        alert: 
+        notice: 
+      update:
+        notice: 

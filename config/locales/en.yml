@@ -274,3 +274,12 @@ en:
     signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please open the link to activate your account.
     unauthenticated: You need to sign in or sign up before continuing.
   user_subject: Confirmation instructions
+  flash:
+    actions:
+      create:
+        notice: ! '%{resource_name} was successfully created.'
+      destroy:
+        alert: ! '%{resource_name} could not be destroyed.'
+        notice: ! '%{resource_name} was successfully destroyed.'
+      update:
+        notice: ! '%{resource_name} was successfully updated.'
