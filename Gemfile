@@ -28,6 +28,8 @@ gem 'slim'
 gem 'devise', '~> 2.1.2'
 gem 'devise-i18n-views'
 
+gem 'responders'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
