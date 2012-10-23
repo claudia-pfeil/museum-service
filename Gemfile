@@ -23,6 +23,7 @@ end
 gem 'localeapp'
 gem 'locale_setter'
 gem 'jquery-rails'
+gem 'slim'
 
 gem 'devise', '~> 2.1.2'
 gem 'devise-i18n-views'
